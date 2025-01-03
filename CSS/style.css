@@ -1,0 +1,138 @@
+header {
+    background-color: rgb(211, 211, 211);
+    animation: slideIn 1s ease-in-out; /* ใช้ slideIn */
+}
+.menu {
+    display: flex; /* จัดเรียงเป็นแนวนอน */
+    gap: 90px; /* ระยะห่างระหว่างปุ่ม */
+    justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
+    padding: 25px;
+}
+
+/* สไตล์ปุ่ม */
+.btn {
+    display: inline-block; /* ทำให้ลิงก์เป็นบล็อกที่จัดขนาดได้ */
+    padding: 10px 20px; /* ขนาดของปุ่ม */
+    background-color: #007BFF; /* สีพื้นหลังปุ่ม */
+    color: #fff; /* สีตัวอักษร */
+    text-decoration: none; /* เอาเส้นใต้ลิงก์ออก */
+    border-radius: 25px; /* ทำให้ปุ่มโค้งมน */
+    font-size: 16px; /* ขนาดตัวอักษร */
+    font-weight: bold; /* ทำให้ตัวอักษรหนา */
+    transition: background-color 0.3s, transform 0.2s; /* เอฟเฟกต์การเปลี่ยนสีและขยายปุ่ม */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ปุ่มดูนูน */
+}
+
+/* เพิ่มเอฟเฟกต์เมื่อเมาส์ชี้ที่ปุ่ม */
+.btn:hover {
+    background-color: #0056b3; /* เปลี่ยนสีเมื่อโฮเวอร์ */
+    transform: scale(1.05); /* ขยายปุ่มเล็กน้อย */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* เพิ่มเงาเมื่อโฮเวอร์ */
+}
+
+/* เพิ่มเอฟเฟกต์เมื่อคลิก */
+.btn:active {
+    background-color: #004085; /* สีเข้มขึ้นเมื่อคลิก */
+    transform: scale(0.98); /* ลดขนาดลงเล็กน้อย */
+}
+
+.img-home {
+    width: 1536px;
+    
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* สไตล์สำหรับ Section About */
+#about, main {
+    
+    text-align: center;
+}
+
+
+#about p, main p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+}
+/* ส่วนแสดง About */
+.about-section {
+    background-color: #f9f9f9; /* สีพื้นหลังเทาอ่อน */
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 800px; /* กำหนดความกว้างสูงสุด */
+    text-align: center;
+    border-radius: 10px; /* ทำให้มุมกลม */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ใส่เงาเบาๆ */
+  }
+  
+  .about-section h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .about-img {
+    width: 100%; /* ทำให้รูปภาพเต็มขนาดกรอบ */
+    max-height: 400px; /* จำกัดความสูงของรูปภาพ */
+    object-fit: cover; /* ครอบภาพให้พอดีกรอบ */
+    border-radius: 10px; /* ทำให้ขอบมุมรูปภาพโค้งมน */
+  }
+  
+  .about-section p
+ {
+    font-size: 18px;
+    line-height: 1.8; /* ระยะห่างระหว่างบรรทัด */
+    color: #555; /* สีข้อความเทาเข้ม */
+    margin-top: 20px;
+  }
+  
+  .introduce {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+  }
+
+  article .cont {
+    width: 100px;
+  }
+
+h2 {
+    margin: 1rem;
+}
+
+.cont {
+    margin-bottom: 1rem;
+}
+footer p {
+    margin-top: 20rem;
+  }
+  /* เพิ่ม Keyframes Animation */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
