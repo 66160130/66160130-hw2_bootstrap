@@ -139,4 +139,6 @@ footer p {
 
 .carousel {
     width: 800px;
+    display: inline-flex;
+    margin: 1rem;
 }
