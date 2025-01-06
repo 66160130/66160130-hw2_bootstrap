@@ -1,1 +1,15 @@
 # 66160130-hw2_bootstrap
+- git checkout -b development
+- git add .
+- git commit  -m "เริ่มจากhw1"
+- git checkout -b indexPage 
+- git add .
+- git commit  -m "เพิ่มbootstrap ในindex"
+- git add .
+- git commit -m "เพิ่ม secrch ในindex"
+- git add .
+- git commit -m "เพิ่มcarousel"
+- git add .
+- git commit -m "เพิ่มimage ในabout.html"
+- git add .
+- git commit -m "สร้างformแบบmodal"
