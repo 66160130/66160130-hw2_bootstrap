@@ -136,3 +136,7 @@ footer p {
         opacity: 1;
     }
 }
+
+.carousel {
+    width: 800px;
+}
